@@ -1,4 +1,6 @@
 # 🤖 AI Resume Assistant (Offline LLM Project)
+🚀 Built using a local LLM (Ollama) to demonstrate real-world AI integration without external APIs.
+> ⚠️ Note: This project runs locally using Ollama. A live demo is not hosted.
 
 ## 📸 Demo
 ![App Screenshot](screenshot.png)
@@ -70,6 +72,12 @@ Resume scoring system
 Better LLM models (Mistral)
 
 UI enhancements
+## ❓ Example Questions
+
+- What are my skills?
+- Summarize my experience
+- What roles suit me?
+- How can I improve my resume?
 
 📌 Author
 
