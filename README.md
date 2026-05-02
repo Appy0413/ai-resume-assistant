@@ -3,7 +3,7 @@
 > ⚠️ Note: This project runs locally using Ollama. A live demo is not hosted.
 
 ## 📸 Demo
-![App Screenshot](screenshot.png)
+![App Screenshot](front.png)
 
 An AI-powered resume chatbot that analyzes resumes, answers questions, and provides improvement suggestions using a locally hosted LLM (Ollama).
 
