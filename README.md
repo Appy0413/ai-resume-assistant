@@ -1,11 +1,16 @@
 # 🤖 AI Resume Assistant (Offline LLM Project)
+
 🚀 Built using a local LLM (Ollama) to demonstrate real-world AI integration without external APIs.
+
 > ⚠️ Note: This project runs locally using Ollama. A live demo is not hosted.
 
-## 📸 Demo
-![App Screenshot](front.png)
+---
 
-An AI-powered resume chatbot that analyzes resumes, answers questions, and provides improvement suggestions using a locally hosted LLM (Ollama).
+## 📸 Demo
+
+![Front Screen](https://github.com/Appy0413/ai-resume-assistant/raw/main/front.png)
+![Resume Analysis](https://github.com/Appy0413/ai-resume-assistant/raw/main/resume%20analysis.png)
+![Ask Questions](https://github.com/Appy0413/ai-resume-assistant/raw/main/ask%20questions.png)
 
 ---
 
@@ -14,72 +19,73 @@ An AI-powered resume chatbot that analyzes resumes, answers questions, and provi
 - 📄 Upload resume (PDF)
 - 💬 Ask questions about your resume
 - 📊 Get AI-based improvement suggestions
-- 🤖 Uses local LLM (no API required)
-- 🔒 Works completely offline
+- 🤖 Uses local LLM (no API key required)
+- 🔒 Works completely offline — privacy friendly
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Ollama (Local LLM)
-- pypdf
+| Tool | Purpose |
+|---|---|
+| Python | Core language |
+| Streamlit | Web UI |
+| Ollama (phi model) | Local LLM inference |
+| pypdf | PDF text extraction |
 
 ---
 
 ## 🧠 How it Works
 
-1. Upload resume (PDF)
-2. Extract text using pypdf
-3. Send context to local LLM via Ollama
-4. AI generates answers and suggestions
+1. Upload your resume (PDF format)
+2. Text extracted using `pypdf`
+3. Text sent as context to local LLM via Ollama
+4. AI generates answers, suggestions and analysis
 
 ---
 
-## ⚡ Setup Instructions
+## ⚙️ Setup Instructions
 
-### 1. Install dependencies
+### 1. Clone the repository
+```bash
+git clone https://github.com/Appy0413/ai-resume-assistant.git
+cd ai-resume-assistant
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
-2. Run local AI model (Ollama)
+```
+
+### 3. Start local AI model
+```bash
 ollama run phi
-3. Run the application
+```
+
+### 4. Run the application
+```bash
 streamlit run app.py
-📊 Features in Detail
-🔹 Resume Q&A
+```
 
-Ask questions like:
+---
 
-What are my skills?
+## ❓ Example Questions to Ask
 
-Summarize my experience
+- "What are my key skills?"
+- "Summarize my work experience"
+- "What roles suit my profile?"
+- "How can I improve my resume?"
+- "What skills am I missing for a Data Scientist role?"
 
-🔹 Resume Improvement
+---
 
-Suggestions for improvement
+## 💡 Key Learning
 
-Missing skills detection
+This project demonstrates running AI completely offline using a local LLM — no API keys, no cost, full privacy. Shows practical integration of PDF parsing, prompt engineering, and Streamlit UI.
 
-Job role recommendations
+---
 
-💡 Future Improvements
+## 📌 Author
 
-Job match scoring
-
-Resume scoring system
-
-Better LLM models (Mistral)
-
-UI enhancements
-## ❓ Example Questions
-
-- What are my skills?
-- Summarize my experience
-- What roles suit me?
-- How can I improve my resume?
-
-📌 Author
-
-Aprajita Singh
-Aspiring Ai Engineer
+**Aprajita Singh** — Aspiring AI/ML Engineer  
+[GitHub](https://github.com/Appy0413)
